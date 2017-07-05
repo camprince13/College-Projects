@@ -1,0 +1,33 @@
+//Cameron Prince
+//028_use_pizza
+//original 2/11/2014
+//modified 2/12/2014
+//SE 124.42
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string id, name, onhand, cost;
+int units;
+double costi, value, totvalue = 0;
+system ("color 0a");
+ifstream fin ("E:\\DATA\\pizza.dat");
+while(! fin.eof())
+{
+fin >> id >> name >> onhand >> cost;
+units = atoi(onhand.c_str());
+costi = atof(cost.c_str());
+value = units * costi;
+cout << name << "\t" << onhand << "\t" << cost;
+cout << "\tValue is $" << value << endl;
+totvalue = totvalue + value;
+}
+cout << "\n\nTotal value is: $" << totvalue<< "\n\n";
+fin.close();
+system("pause");
+return 0;
+}

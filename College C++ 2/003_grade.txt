@@ -1,0 +1,82 @@
+//Cameron Prince
+//003_grade
+//original 1/7/2014
+//modified 1/7/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int i;
+string name[4], test1[4], test2[4], test3[4];
+
+for (i = 0; i < 4; i++)
+{
+	cout << "Enter student name: ";
+	cin >> name[i];
+	cout << "Enter grade for test 1: ";
+	cin >> test1[i];
+	cout << "Enter grade for test 2: ";
+	cin >> test2[i];
+	cout << "Enter grade for test 3: ";
+	cin >> test3[i];
+	cout << "\n";
+}
+
+for (i = 0; i < 4; i++)
+{
+cout << "\n\n" << name[i] << "\t" << test1[i] << "\t" << test2[i] << "\t" << test3[i] << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}
+
+
+
+
+
+
+//Cameron Prince
+//003_grade
+//original 1/7/2014
+//modified 1/8/2014 print avg
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int i, test1[4], test2[4], test3[4];
+string name[4];
+double avg;
+
+for (i = 0; i < 4; i++)
+{
+	cout << "Enter student name: ";
+	cin >> name[i];
+	cout << "Enter grade for test 1: ";
+	cin >> test1[i];
+	cout << "Enter grade for test 2: ";
+	cin >> test2[i];
+	cout << "Enter grade for test 3: ";
+	cin >> test3[i];
+	cout << "\n";
+}
+
+for (i = 0; i < 4; i++)
+{
+avg = (test1[i] + test2[i] + test3[i]) / 3;
+cout << "\n\n" << name[i] << "\t" << avg << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}

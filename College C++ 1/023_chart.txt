@@ -1,0 +1,54 @@
+//Cameron Prince
+//023_chart
+//original 11/13/2013
+//modified 11/13/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double brate, erate, rise, rate, weekly, monthly, yearly;
+
+	cout << "Enter the beginning hourly rate (between $7.50 and $10.00): ";
+	cin >> brate;
+
+		while (brate <= 7.5 || brate >= 10)
+	{
+		cout << "Between $7.50 and $10! ";
+		cin >> brate;
+	}
+
+	cout << "Enter the ending hourly rate (greater than "<< brate << " and less than $25): ";
+	cin >> erate;
+
+	while ( erate <= brate || erate >= 25)
+	{
+	cout << "Greater than "<< brate << " and less than 25: ";
+	cin >> erate;
+	}
+
+	cout << "Enter the rise (do not exceed $5.00): ";
+	cin >> rise;
+
+	while (rise <= 0 || rise > 5)
+	{
+	cout << "Greater than 0 and less than 5: ";
+	cin >> rise;
+	}
+
+	for (rate = brate; rate <= erate; rate+=rise)
+	{
+	cout << "\n\nRates\n";
+	cout << "Hourly\tWeekly\tMonthly\tYearly\n\n";
+	weekly = rate * 40;
+	yearly = weekly * 52;
+	monthly = yearly / 12;
+	cout << rate << "\t" << weekly << "\t" << monthly << "\t" << yearly << endl;
+	}
+	cout << endl;
+
+system ("pause");
+return 0;
+}

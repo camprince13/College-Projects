@@ -1,0 +1,35 @@
+//Cameron Prince
+//013_retire_OR
+//original 10/30/2013
+//modified 10/30/2013
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+int age, years, stopit = 1;
+
+while (stopit == 1)
+{
+cout << "Enter age: ";
+cin >> age;
+cout << "Enter years worked: ";
+cin >> years;
+
+if (age > 65 || years > 20)
+{
+cout << "Retire" << endl << endl;
+}
+else
+{
+cout << "Work" << endl << endl;
+}
+cout << "Enter 1 to continue, 0 to stop: ";
+cin >> stopit;
+}
+
+system ("pause");
+return 0;
+}

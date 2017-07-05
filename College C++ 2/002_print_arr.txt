@@ -1,0 +1,21 @@
+//Cameron Prince
+//002_print_arr
+//original 1/7/2014
+//modified 1/7/2014
+//SE 124.42
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
+
+for (int i = 0; i < 5; i++)
+{
+cout << scores[i] << " ";
+}
+cout << "\n\n";
+system ("pause");
+return 0;
+}

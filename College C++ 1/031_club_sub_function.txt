@@ -1,0 +1,74 @@
+//Cameron Prince
+//031_club_sub_function
+//original 10/31/2013   014_club_nested
+//modified 11/21/2013
+#include <iostream>
+using namespace std;
+void prtdues (int sdues);
+int sub(int year, int ty);
+
+int main()
+{
+	int joinY, memT, dues, totdues = 0, stopit = 1;
+
+	while (stopit == 1)
+	{
+	cout << "Enter your member type" << endl << "(1 for full member, 0 for pool member): ";
+	cin >> memT;
+	cout << "Enter the year that you joined: ";
+	cin >> joinY;
+	
+	
+	dues = sub (joinY, memT);  //dues calc
+
+
+	
+	cout << "Your dues are $" << dues << "." << endl;
+	totdues += dues;
+	
+	cout << "Enter 1 to continue or 0 to stop: ";
+	cin >> stopit;
+	cout << endl << endl;
+	}
+
+
+	prtdues (totdues); //total dues
+	
+
+	system ("pause");
+	return 0;
+	
+}
+
+int sub(int year, int ty)
+{
+	int dues;
+	if (year == 1980)
+	{
+		if (ty == 1)
+		{
+		dues = 1000;
+		}
+		else
+		{
+		dues = 500;
+		}
+	}
+	else
+	{
+		if (ty == 1)
+		{
+		dues = 1200;
+		}
+		else
+		{
+		dues = 700;
+		}
+	}
+return dues;
+}
+
+void prtdues (int sdues)
+{
+	cout << "Total dues: $" << sdues << "." << endl;
+}

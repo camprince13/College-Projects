@@ -1,0 +1,8 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\bin\Debug\004_Futture_Value.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\bin\Debug\004_Futture_Value.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\_004_Futture_Value.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\_004_Futture_Value.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\004_Futture_Value.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\004_Futture_Value.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\004_Futture_Value.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\004_Futture_Value\004_Futture_Value\obj\x86\Debug\004_Futture_Value.csprojResolveAssemblyReference.cache

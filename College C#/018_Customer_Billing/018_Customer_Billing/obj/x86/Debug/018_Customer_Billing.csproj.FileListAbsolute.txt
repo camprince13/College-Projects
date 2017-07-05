@@ -1,0 +1,11 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\_018_Customer_Billing.customer.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\_018_Customer_Billing.payment.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\_018_Customer_Billing.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\bin\Debug\018_Customer_Billing.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\bin\Debug\018_Customer_Billing.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.csprojResolveAssemblyReference.cache
+J:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\018_Customer_Billing\018_Customer_Billing\obj\x86\Debug\018_Customer_Billing.pdb

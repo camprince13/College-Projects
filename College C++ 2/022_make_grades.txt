@@ -1,0 +1,43 @@
+//Cameron Prince
+//022_make_grades
+//original 2/4/2014
+//modified 2/11/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+int i;
+string name, test1, test2, test3;
+ofstream fout ("E:\\DATA\\grades.dat");
+
+while(1)
+{
+	cout << "Enter student name: ";
+	getline (cin, name);
+	if(name.empty())
+	break;
+	cout << "Enter grade for test 1: ";
+	getline (cin, test1);
+	cout << "Enter grade for test 2: ";
+	getline (cin, test2);
+	cout << "Enter grade for test 3: ";
+	getline (cin, test3);
+	cout << "\n";
+fout << "\n\n" << name << "\t" << test1 << "\t" << test2 << "\t" << test3 << endl;
+cout << "\n\nSent to file.\n\n";
+}
+
+//for (i = 0; i < 4; i++)
+//{
+//fout << "\n\n" << name << "\t" << test1 << "\t" << test2 << "\t" << test3 << endl;
+//}
+//cout << "\n\nSent to file.\n\n";
+fout.close();
+system ("pause");
+return 0;
+}

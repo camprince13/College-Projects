@@ -1,0 +1,7 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\bin\Debug\011_MadLib.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\bin\Debug\011_MadLib.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\obj\x86\Debug\_011_MadLib.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\obj\x86\Debug\_011_MadLib.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\obj\x86\Debug\011_MadLib.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\obj\x86\Debug\011_MadLib.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_MadLib\011_MadLib\obj\x86\Debug\011_MadLib.pdb

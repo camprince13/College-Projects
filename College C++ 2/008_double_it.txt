@@ -1,0 +1,30 @@
+//Cameron Prince
+//008_double_it
+//original 1/14/2014
+//modified 1/14/2014
+//SE 124.42
+
+#include <iostream>
+using namespace std;
+
+void d_it(int *p);
+
+int main()
+{
+int a = 5, b = 6;
+
+cout << "Val. of a before doubling: " << a << endl;
+cout << "Val. of b before doubling: " << b << endl;
+d_it(&a); //addr of a
+d_it(&b); //addr of b
+cout << "Val. of a after doubling: " << a << endl;
+cout << "Val. of b after doubling: " << b << endl;
+
+system ("pause");
+return 0;
+}
+
+void d_it(int *p)
+{
+*p = *p * 2;
+}

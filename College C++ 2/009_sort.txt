@@ -1,0 +1,59 @@
+//155 example
+//158-159
+//Cameron Prince
+//009_sort
+//original 1/14/2014
+//modified 1/14/2014
+//SE 124.42
+
+#include <iostream>
+using namespace std;
+
+void sor(int n);
+void swa(int *p1, int *p2);
+int a[10];
+
+int main()
+{
+int i;
+
+for(i = 0; i < 10; i++)
+{
+cout << "Enter array element # " << i << ": ";
+cin >> a[i];
+}
+sor(10);
+cout << "\nSorted array: " << endl;
+
+for(i = 0; i < 10; i++)
+{
+cout << a[i] << " ";
+}
+cout << "\n\n";
+system ("pause");
+return 0;
+}
+
+void sor(int n)
+{
+int i, j, low;
+
+for(i = 0; i < n - 1; i++)
+{
+low = i;
+
+for(j = i + 1; j < n; j++)
+	if(a[j] < a[low])
+		low = j;
+
+if( i != low)
+	swa(&a[i], &a[low]);
+}
+}
+
+void swa(int *p1, int *p2)
+{
+int temp = *p1;
+*p1 = *p2;
+*p2 = temp;
+}

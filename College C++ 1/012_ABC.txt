@@ -1,0 +1,48 @@
+//Cameron Prince
+//012_ABC_Pizza
+//original 10/28/2013
+//modified 10/28/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int ID, stopit = 1, abcunits = 0;
+	double value, units, cost, abcvalue = 0;
+
+	while (stopit ==1)
+	{
+	cout << "Enter vendor ID: ";
+	cin >> ID;
+
+	cout << "Enter number of units: ";
+	cin >> units;
+
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = cost * units;
+
+	if (ID == 110)
+	{
+	abcunits = abcunits + units;
+	abcvalue = abcvalue + value;
+	}
+
+	cout << endl << "Vendor ID: " << ID << endl;
+	cout << "Number of units: " << units << endl;
+	cout << "Cost per unit: $" << cost << endl;
+	cout << "Total value: $" << value << endl << endl;
+
+	cout << "Enter 1 to continue or 0 to stop: ";
+	cin >> stopit;
+	cout << endl;
+	}
+	
+	cout << "Total number of ABC units sold: " << abcunits << endl;
+	cout << "Total value of sold ABC units: $" << abcvalue << endl;
+	system ("pause");
+	return 0;
+}

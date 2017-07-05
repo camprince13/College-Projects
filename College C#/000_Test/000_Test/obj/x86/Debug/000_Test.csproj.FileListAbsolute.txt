@@ -1,0 +1,10 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\bin\Debug\000_Test.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\bin\Debug\000_Test.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\_000_Test.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\_000_Test.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.csprojResolveAssemblyReference.cache
+G:\00NEITDRIVE\1_Flashdrive\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.exe
+G:\00NEITDRIVE\1_Flashdrive\NEIT\Q4-2014_Summer\C#\Projects\000_Test\000_Test\obj\x86\Debug\000_Test.pdb

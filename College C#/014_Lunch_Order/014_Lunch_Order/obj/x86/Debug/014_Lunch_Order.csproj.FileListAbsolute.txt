@@ -1,0 +1,14 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\bin\Debug\014_Lunch_Order.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\bin\Debug\014_Lunch_Order.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\_014_Lunch_Order.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\_014_Lunch_Order.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\bin\Debug\014_Lunch_Order.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\bin\Debug\014_Lunch_Order.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\_014_Lunch_Order.Form1.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\_014_Lunch_Order.Properties.Resources.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\014_Lunch_Order\014_Lunch_Order\obj\x86\Debug\014_Lunch_Order.csproj.GenerateResource.Cache

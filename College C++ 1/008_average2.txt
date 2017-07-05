@@ -1,0 +1,35 @@
+//Cameron Prince
+//008_average2
+//original 10/17/2013
+//modified 10/17/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+	int i = 1, n;
+	double average, score1, score2, score3;
+
+	cout << "How many students? ";
+	cin >> n;
+
+	while (i <= n)
+	{
+	cout << "Enter the 1st test score: ";
+	cin >> score1;
+	cout << "Enter the 2nd test score: ";
+	cin >> score2;
+	cout << "Enter the 3rd test score: ";
+	cin >> score3;
+
+	average = (score1 + score2 + score3) / 3;
+
+	cout << "The average test score is " << average << "." << endl << endl;
+
+	i = i + 1;
+	}
+
+system ("pause"); 
+return 0;  
+} 

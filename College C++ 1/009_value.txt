@@ -1,0 +1,188 @@
+//Cameron Prince
+//009_Value
+//original 10/21/2013
+//modified 10/22/2013
+
+#include <iostream> 
+using namespace std; 
+
+int main()  //start of main function
+{
+	int i = 1, n, vID, totitems = 0;
+	double value, units, cost;
+
+	cout << "Enter how many different items do you have: ";
+	cin >> n;
+
+	while (i <= n)
+	{
+	cout << "Enter the Vendor ID: ";
+	cin >> vID;
+	cout << "Enter how many units: ";
+	cin >> units;
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = units * cost;
+
+	cout << endl << "ID # " << vID << endl;
+	cout << units << "Units" << endl;
+	cout << "$" << cost << " each" << endl;
+	cout << "$" << value << " total" << endl << endl;
+	i = i + 1;
+	totitems = totitems + 1;
+	}
+	cout << totitems << " total items" << endl; //batch control total
+
+system ("pause"); 
+return 0;  
+} 
+
+
+
+
+
+stopit version
+
+
+
+//Cameron Prince
+//009_Value
+//original 10/21/2013
+//modified 10/22/2013 added stopit
+
+#include <iostream> 
+using namespace std; 
+
+int main()  //start of main function
+{
+	int i = 1, n, vID, totitems = 0, stopit = 1;
+	double value, units, cost;
+
+	
+	// condition must be true
+	while (stopit == 1)
+	{
+	cout << "Enter the Vendor ID: ";
+	cin >> vID;
+	cout << "Enter how many units: ";
+	cin >> units;
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = units * cost;
+
+	cout << endl << "ID # " << vID << endl;
+	cout << units << "Units" << endl;
+	cout << "$" << cost << " each" << endl;
+	cout << "$" << value << " total" << endl << endl;
+	i = i + 1;
+	totitems = totitems + 1;
+	//decide to continue or not
+	cout << "Enter 0 to stop, enter 1 to continue: ";
+	cin >> stopit;
+	}
+	cout << totitems << " total items" << endl; //batch control total
+
+system ("pause"); 
+return 0;  
+} 
+
+
+
+
+total value
+
+
+//Cameron Prince
+//009_Value
+//original 10/21/2013
+//modified 10/22/2013 added total value
+
+#include <iostream> 
+using namespace std; 
+
+int main()  //start of main function
+{
+	int i = 1, n, vID, totitems = 0, stopit = 1;  // = loads value
+	double value, units, cost, totvalue = 0;
+
+	
+	// condition must be true
+	while (stopit == 1)  // == checks value
+	{
+	cout << "Enter the Vendor ID: ";
+	cin >> vID;
+	cout << "Enter how many units: ";
+	cin >> units;
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = units * cost;
+
+	cout << endl << "ID # " << vID << endl;
+	cout << units << "Units" << endl;
+	cout << "$" << cost << " each" << endl;
+	cout << "$" << value << " total" << endl << endl;
+	i = i + 1;
+	totitems = totitems + 1;
+	totvalue = totvalue + value;
+	//decide to continue or not
+	cout << "Enter 0 to stop, enter 1 to continue: ";
+	cin >> stopit;
+	}
+	cout << totitems << " total items" << endl; //batch control total
+	cout << "Total value is $" << totvalue << endl;
+
+system ("pause"); 
+return 0;  
+}
+
+
+with shorthand
+
+
+
+//Cameron Prince
+//009_Value
+//original 10/21/2013
+//modified 10/24/2013 added shorthand
+
+#include <iostream> 
+using namespace std; 
+
+int main()  //start of main function
+{
+	int i = 1, n, vID, totitems = 0, stopit = 1;  // = loads value
+	double value, units, cost, totvalue = 0;
+
+	
+	// condition must be true
+	while (stopit == 1)  // == checks value
+	{
+	cout << "Enter the Vendor ID: ";
+	cin >> vID;
+	cout << "Enter how many units: ";
+	cin >> units;
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = units * cost;
+
+	cout << endl << "ID # " << vID << endl;
+	cout << units << "Units" << endl;
+	cout << "$" << cost << " each" << endl;
+	cout << "$" << value << " total" << endl << endl;
+	i = i + 1;
+	totitems++; //totitems = totitems + 1;
+	totvalue +=value;  //totvalue = totvalue + value;
+	//decide to continue or not
+	cout << "Enter 0 to stop, enter 1 to continue: ";
+	cin >> stopit;
+	}
+	cout << totitems << " total items" << endl; //batch control total
+	cout << "Total value is $" << totvalue << endl;
+
+system ("pause"); 
+return 0;  
+} 

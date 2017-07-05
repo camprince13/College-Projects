@@ -1,0 +1,34 @@
+//Cameron Prince
+//024_make_club
+//original 2/11/2014
+//modified 2/11/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+string name, type, year;
+ofstream fout ("E:\\DATA\\club.dat");
+
+while(1)
+{
+	cout << "Enter member name: ";
+	getline (cin, name);
+	if(name.empty())
+	break;
+	cout << "Enter member type: ";
+	getline (cin, type);
+	cout << "Enter year joined: ";
+	getline (cin, year);
+
+fout << "\n\n" << name << "\t" << type << "\t" << year;
+}
+cout << "\n\nSent to file.\n\n";
+fout.close();
+system ("pause");
+return 0;
+}

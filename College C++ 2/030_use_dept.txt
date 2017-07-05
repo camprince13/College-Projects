@@ -1,0 +1,36 @@
+//Cameron Prince
+//028_use_dept
+//original 2/24/2014
+//modified 2/26/2014
+//SE 124.42
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string first, last, dept, hours, rate, name;
+double gross, drate, totgross = 0;
+int ihour;
+system ("color 0a");
+ifstream fin ("E:\\DATA\\DEPT.dat");
+while(! fin.eof())
+{
+fin >> last >> first >> dept >> hours >> rate;
+
+drate = atof(rate.c_str());
+ihour = atoi(hours.c_str());
+gross = drate * ihour;
+name = first + " " + last;
+
+cout << dept << "\t" << name << "\t" << "$" << gross << endl;
+totgross += gross;
+}
+
+cout << "\nTotal gross pay is $" << totgross << "\n\n";
+fin.close();
+system("pause");
+return 0;
+}

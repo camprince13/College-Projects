@@ -1,0 +1,9 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\_015_string_handling.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\_015_string_handling.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\015_string_handling.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\bin\Debug\015_string_handling.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\bin\Debug\015_string_handling.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\015_string_handling.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\015_string_handling.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\015_string_handling.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\015_string_handling\015_string_handling\obj\x86\Debug\015_string_handling.pdb

@@ -1,0 +1,57 @@
+//Cameron Prince
+//042_payroll
+//original 12/16/2013
+//modified 12/16/2013
+//se114.11
+
+double grossc(double hr, double pr);
+void prtres(int emp, int sup, double pay, double grss, double hr);
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int empno, supno, n = 1;
+double payr, grossp, hour;
+
+while (n == 1)
+{
+cout << "Enter Employee number: ";
+cin >> empno;
+
+cout << "Enter Supervisor number: ";
+cin >> supno;
+
+cout << "Enter your pay rate: ";
+cin >> payr;
+
+cout << "Enter hours worked: ";
+cin >> hour;
+
+grossp = grossc(hour, payr);
+
+prtres(empno, supno, payr, grossp, hour);
+
+cout << "Enter 1 to continue: ";
+cin >> n;
+}
+system ("pause");
+return 0;
+}
+
+double grossc(double hr, double pr)
+{
+double gr;
+gr = hr * pr;
+return gr;
+}
+
+void prtres(int emp, int sup, double pay, double grss, double hr)
+{
+cout << "Employee: \t#" << emp << endl;
+cout << "Supervisor: \t#" << sup << endl;
+cout << "Hours worked: \t" << hr << endl;
+cout << "Pay Rate: \t$" << pay << endl;
+cout << "Gross Rate: \t$" << grss << endl << endl;
+}

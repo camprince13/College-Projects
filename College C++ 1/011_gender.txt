@@ -1,0 +1,38 @@
+//Cameron Prince
+//011_gender
+//original 10/24/2013
+//modified 10/24/2013
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int gender, stopit = 1, male = 0, female = 0;
+
+	while (stopit == 1)
+	{
+	cout << "Enter 1 for female, 0 for male: ";
+	cin >> gender;
+
+	if (gender == 0)
+	{
+		cout << "The gender is male" << endl;
+		male++;
+	}
+	else // not always needed with if
+	{
+		cout << "The gender is female" << endl;
+		female++;
+	}
+	cout << "Enter 1 to continue, 0 to stop: ";
+	cin >> stopit;
+	cout << endl;
+	}
+
+	cout << "There were " << male << " males" << endl;
+	cout << "There were " << female << " females" << endl;
+
+system ("pause");
+return 0;
+}

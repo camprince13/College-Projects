@@ -1,0 +1,59 @@
+//Cameron Prince
+//017_dealer2
+//original 1/28/2014
+//modified 1/28/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<cstdlib>
+#include<ctime>
+#include<cmath>
+using namespace std;
+
+int rand(int n);
+void draw();
+
+string suits[4] =
+{"hearts", "diamonds", "spades", "clubs"};
+
+string ranks[13] =
+{"ace", "two", "three", "four", "five", 
+"six", "seven", "eight", "nine", 
+"ten", "jack", "queen", "king" };
+
+int main()
+{
+int n, i;
+srand(time(NULL));
+
+while (1) {
+cout << "Enter no. of cards to draw: " << endl;
+cout << "(0 to exit)";
+cin >> n;
+
+if (n == 0)
+break;
+for (i = 1; i <= n; i++)
+draw();
+}
+system ("pause");
+return 0;
+}
+
+void draw()
+{
+int r;
+int s;
+int card;
+
+card = rand(52);
+r = card % 13;
+s = card / 13;
+cout << ranks[r] << " of " << suits[s] << endl << endl;
+}
+
+int rand(int n)
+{
+return rand() % n;
+}

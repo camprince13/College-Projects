@@ -1,0 +1,28 @@
+//Cameron Prince
+//025_use_stooge
+//original 2/11/2014
+//modified 2/12/2014
+//SE 124.42
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string name, rating;
+
+//1. create file object, and attach to the data file
+// i means input
+ifstream fin ("E:\\DATA\\stooge.dat");
+while(! fin.eof())
+{
+fin >> name >> rating;
+cout << name << "\t" << rating << endl;
+
+}
+fin.close();
+system("pause");
+return 0;
+}

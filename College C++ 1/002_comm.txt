@@ -1,0 +1,32 @@
+//Cameron Prince
+// 002_comm   modified 10/10/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+	cout << "Commission calculation program" << endl <<endl;
+
+	double commission,  rate,  week1,  week2,  returns;  //declaration
+	//load variables
+	cout << "Enter the commission rate: ";
+	cin >> rate;
+
+	cout << "Enter the week 1 sales: ";
+	cin >> week1;
+
+	cout << "Enter the week 2 sales: ";
+	cin >> week2;
+
+	cout << "Enter the sales returns: ";
+	cin >> returns;
+
+	//calculate commission
+	commission = rate * (week1 + week2 -returns);
+	cout <<endl << "Commission to be paid $" << commission << endl << endl;
+	
+
+system ("pause"); //freeze screen
+return 0;  //indicates successful completion
+} //close main function

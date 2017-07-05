@@ -1,0 +1,52 @@
+//Cameron Prince
+//014_club
+//original 10/29/2013
+//modified 10/30/2013
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int joinY, memT, dues, totdues = 0, stopit = 1;
+
+	while (stopit == 1)
+	{
+	cout << "Enter your member type" << endl << "(1 for full member, 0 for pool member): ";
+	cin >> memT;
+	cout << "Enter the year that you joined: ";
+	cin >> joinY;
+	if (joinY == 1980 && memT == 1)
+	{
+	dues = 1000;
+	}
+	
+	if (joinY == 1980 && memT == 0)
+	{
+	dues = 500;
+	}
+	
+	if (joinY != 1980 && memT == 1)
+	{
+	dues = 1200;
+	}
+	
+	if (joinY != 1980 && memT == 0)
+	{
+	dues = 700;
+	}
+	
+	cout << "Your dues are $" << dues << "." << endl;
+	totdues += dues;
+	
+	cout << "Enter 1 to continue or 0 to stop: ";
+	cin >> stopit;
+	cout << endl << endl;
+	}
+
+	cout << "Total dues: $" << totdues << "." << endl;
+	
+	system ("pause");
+	return 0;
+	
+}

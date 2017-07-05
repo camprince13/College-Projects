@@ -1,0 +1,24 @@
+//Cameron Prince
+// 004_grossPay_v3  modified 10/14/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+
+	double earnings, hours, PayRate;
+	cout << "Enter how many hours have you worked: ";
+	cin >> hours;
+	cout << endl;
+	cout << "Enter your pay rate: ";
+	cin >> PayRate;
+	cout << endl;
+
+	earnings = hours * PayRate;
+
+	cout << "Your gross pay is $" << earnings << endl;
+
+system ("pause"); //freeze screen
+return 0;  //indicates successful completion
+} //close main function

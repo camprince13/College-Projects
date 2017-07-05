@@ -1,0 +1,36 @@
+//Cameron Prince
+//014_madlib
+//original 1/20/2014
+//modified 1/20/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+	string pnoun1, pnoun2, bpart, verb, adj;
+
+	cout << "Enter plural noun: ";
+	getline (cin, pnoun1);
+
+	cout << "Enter plural body part: ";
+	getline (cin, bpart);
+
+	cout << "Enter verb: ";
+	getline (cin, verb);
+
+	cout << "Enter another plural noun: ";
+	getline (cin, pnoun2);
+
+	cout << "Enter adjective: ";
+	getline (cin, adj);
+
+	cout << "\n\nFriends, Romans, " + pnoun1 + " lend me your " +  bpart + " I come to " + verb + " Caesar, \nnot to praise him. The evil that men do lives after them. The good \nis often interred with their " + pnoun2 + ".\nSo let it be with politician The noble Brutus ";
+	cout << "Hath told you Caesar was " + adj + "\nIf it were so, it was a grievous fault, And grievously hath Caesar answer'd it.\n";
+
+	system("pause");
+	return 0;
+
+}

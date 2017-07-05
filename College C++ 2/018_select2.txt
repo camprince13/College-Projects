@@ -1,0 +1,57 @@
+//Cameron Prince
+//018_select2
+//original 1/28/2014
+//modified 1/28/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<cstdlib>
+#include<ctime>
+#include<cmath>
+using namespace std;
+
+int rand(int n);
+void pick();
+
+string color[4] =
+{"red", "blue", "orange", "green"};
+
+string shape[2] =
+{"cube", "ball"};
+
+int main()
+{
+int n, i;
+srand(time(NULL));
+
+while (1) {
+cout << "Enter no. of objects to pick: " << endl;
+cout << "(0 to exit)";
+cin >> n;
+
+if (n == 0)
+break;
+for (i = 1; i <= n; i++)
+pick();
+}
+system ("pause");
+return 0;
+}
+
+void pick()
+{
+int r;
+int s;
+int object;
+
+object = rand(8);
+r = object % 4;
+s = object / 4;
+cout << "You picked a " << color[r] << " " << shape[s] << endl << endl;
+}
+
+int rand(int n)
+{
+return rand() % n;
+}

@@ -1,0 +1,47 @@
+//Cameron Prince
+//041_string_pizza
+//original 12/12/2013
+//modified 12/12/2013
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+
+int i = 1, n;
+string vID, product, units, cost;
+double totvalue = 0, cos, un, value;
+
+	while (1)
+	{
+	cout << "Enter product name or press enter to stop: ";
+	getline (cin, product);
+
+	if (product.empty())
+		break;
+
+	cout << "Enter the Vendor ID: ";
+	getline (cin, vID);
+	cout << "Enter how many units: ";
+	getline (cin, units);
+	cout << "Enter the cost per unit: ";
+	getline (cin, cost);
+
+	cos = atof(cost.c_str());
+	un = atof(units.c_str());
+
+	value = un * cos;
+
+	cout << "\nProduct: " << product;
+	cout << endl << "ID # " << vID << endl;
+	cout << units << " Units\n";
+	cout << "$" << cost << " each\n";
+	cout << "$" << value << " total\n\n";
+	i = i + 1;
+	totvalue +=value;
+	}
+system ("pause"); 
+return 0;
+}

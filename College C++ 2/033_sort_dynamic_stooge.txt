@@ -1,0 +1,81 @@
+//Cameron Prince
+//033_sort_dynamic_stooge
+//original 3/4/2014
+//modified 3/4/2014
+//SE 124.42
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+void sort(int n);
+void swap(string *p1, string *p2);
+
+string *stooge, *rating;
+
+int main()
+{
+system("color 0a");
+int i, count = 0;
+	string name, rate;
+	// open data file - create the fin object, - attach to datafile
+	ifstream fin ("E:\\data\\stooge.dat");
+	//count the records
+	while (! fin.eof()){
+		fin >> name >> rate;
+		count++;
+	}
+	fin.close();
+
+	//array  size the arrays
+	stooge = new string [count];
+	rating = new string [count];
+
+	// load the arrays
+	fin.open ("E:\\data\\stooge.dat");
+
+	for (i = 0; i < count; i++){
+		fin >> stooge[i] >> rating[i];
+	}
+	fin.close();
+		
+	sort(4); //n in the sort function is catching the 10 because that is the size of the a array
+
+cout << "Array sorted.\n\n";
+
+// output
+for (i = 0; i < 4; i++)
+	cout << stooge[i] << "\t" << rating[i] << "\n";
+//delete the arrays
+	delete [] stooge;
+	delete [] rating;
+	cout << endl;
+system ("pause");
+return 0;
+}
+
+//function step 3 - the function definition
+void sort(int n){ // n catches the 10 from the call
+	int i, j, low; // local variables - only exists in the sort function
+	 for (i = 0; i < n-1; i++){
+
+		 low = i;
+
+		 for (j = i+1; j < n; j++)
+			 if (stooge[j] < stooge[low])
+				low = j;
+
+		if (i != low){ // Need a swap call for every array
+			swap (&stooge[i], &stooge[low]); //call to the swap function- the address if a[i] will be caught by
+		                          // the variale *p1 & the address of a[low] will be caught by *p2
+			swap (&rating[i], &rating[low]);
+		}
+	 }
+}
+
+void swap (string *p1, string *p2) {
+	string temp = *p1;
+	*p1 = *p2;
+	*p2 = temp;
+}

@@ -1,0 +1,81 @@
+//Cameron Prince
+//004_product
+//original 1/8/2014
+//modified 1/8/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int i, vid[5], units[5];
+string product[5];
+double cost[5];
+
+for (i = 0; i < 5; i++)
+{
+	cout << "Enter Vendor ID: ";
+	cin >> vid[i];
+	cout << "Enter the product: ";
+	cin >> product[i];
+	cout << "Enter number of units: ";
+	cin >> units[i];
+	cout << "Enter cost per unit: ";
+	cin >> cost[i];
+	cout << "\n";
+}
+
+for (i = 0; i < 5; i++)
+{
+cout << "\n\n" << vid[i] << "\t" << product[i] << "\t" << units[i] << "\t" << cost[i] << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}
+
+
+
+
+//Cameron Prince
+//004_product
+//original 1/8/2014
+//modified 1/8/2014  added value
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int i, vid[5], units[5];
+string product[5];
+double cost[5], value;
+
+for (i = 0; i < 5; i++)
+{
+	cout << "Enter Vendor ID: ";
+	cin >> vid[i];
+	cout << "Enter the product: ";
+	cin >> product[i];
+	cout << "Enter number of units: ";
+	cin >> units[i];
+	cout << "Enter cost per unit: ";
+	cin >> cost[i];
+	cout << "\n";
+}
+
+for (i = 0; i < 5; i++)
+{
+value = units[i] * cost[i];
+cout << "\n\n" << vid[i] << "\t" << product[i] << "\t" << value << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}

@@ -1,0 +1,34 @@
+//Cameron Prince
+//017_anotherString
+//original 11/5/2013
+//modified 11/5/2013
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string fname, lname, city, work, fullname, str;
+	
+	cout << "Enter 1st name: ";
+	getline (cin, fname);
+
+	cout << "Enter last name: ";
+	getline (cin, lname);
+
+	cout << "Enter your city: ";
+	getline (cin, city);
+
+	cout << "Enter workplace: ";
+	getline (cin, work);
+
+	fullname = fname + " " + lname;
+
+	str = "\n\nMy name is " + fullname + "\nand I live in " + city + ". \nI Work at " + work + ".\n";
+
+	cout << str << endl;
+
+	system ("pause");
+	return 0;
+}

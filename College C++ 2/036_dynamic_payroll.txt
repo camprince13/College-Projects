@@ -1,0 +1,99 @@
+//Cameron Prince
+//036_dynamic_payroll
+//original 3/10/2014
+//modified 3/10/2014
+//SE 124.42
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+void sort(int n);
+void swap(string *p1, string *p2);
+
+string *lname, *fname, *dept, *hour, *rate;
+string name;
+
+int main()
+{
+system("color 0a");
+int i, count = 0;
+	string last, first, de, hr, ra;
+	double gross, totgross = 0, houri, ratei;
+	ifstream fin ("K:\\DATA\\DEPT.dat");
+	while (! fin.eof()){
+		fin >> last >> first >> de >> hr >> ra;
+		count++;
+	}
+	fin.close();
+	cout << count << " Records found\n";
+
+	lname = new string [count];
+	fname = new string [count];
+	dept = new string [count];
+	hour = new string [count];
+	rate = new string [count];
+
+	fin.open ("K:\\DATA\\DEPT.dat");
+
+	for (i = 0; i < count; i++){
+		fin >> lname[i] >> fname[i] >> dept[i] >> hour[i] >> rate[i];
+	}
+	fin.close();
+
+	sort(count);
+
+cout << "Array sorted.\n\n";
+
+for (i = 0; i < count; i++)
+{
+	name = fname[i] + " " + lname[i];
+	houri = atof(hour[i].c_str());
+	ratei = atof(rate[i].c_str());
+	gross = houri * ratei;
+
+	cout << dept[i] << "\t" << name << "\t" << "$" << gross << "\n";
+	totgross += gross;
+}
+
+cout << "\n\nTotal gross is: $" << totgross;
+
+	delete [] fname;
+	delete [] lname;
+	delete [] dept;
+	delete [] hour;
+	delete [] rate;
+	cout << endl;
+system ("pause");
+return 0;
+}
+
+
+void sort(int n){ 
+	int i, j, low; 
+	 for (i = 0; i < n-1; i++){
+
+		 low = i;
+
+		 for (j = i+1; j < n; j++)
+			 if (dept[j] < dept[low])
+				low = j;
+
+		if (i != low){ 
+			swap (&dept[i], &dept[low]); 
+		
+			swap (&fname[i], &fname[low]);
+			swap (&lname[i], &lname[low]);
+			swap (&hour[i], &hour[low]);
+			swap (&rate[i], &rate[low]);
+		}
+	 }
+}
+
+void swap (string *p1, string *p2) {
+	string temp = *p1;
+	*p1 = *p2;
+	*p2 = temp;
+}

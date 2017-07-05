@@ -1,0 +1,31 @@
+//Cameron Prince
+//026_use_grades
+//original 2/11/2014
+//modified 2/12/2014
+//SE 124.42
+
+#include<iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string name, grade1, grade2, grade3;
+int avg, t1, t2, t3;
+system ("color 0a");
+ifstream fin ("E:\\DATA\\grades.dat");
+while(! fin.eof())
+{
+fin >> name >> grade1 >> grade2 >> grade3;
+t1 = atoi(grade1.c_str()); //atoi  is ascii to integer
+t2 = atoi(grade2.c_str()); //atof  is ascii to floating point (double)
+t3 = atoi(grade3.c_str());
+avg = (t1 + t2 + t3)/3;
+cout << name << "\t" << grade1 << "\t" << grade2 << "\t" << grade3<< endl;
+cout << name << "'s average: " << avg << "\n\n";
+}
+fin.close();
+system("pause");//system commands are cmd commands!
+return 0;
+}

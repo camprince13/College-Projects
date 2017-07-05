@@ -1,0 +1,7 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\bin\Debug\001_Enhanced.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\bin\Debug\001_Enhanced.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\obj\x86\Debug\_001_Enhanced.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\obj\x86\Debug\_001_Enhanced.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\obj\x86\Debug\001_Enhanced.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\obj\x86\Debug\001_Enhanced.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\001_Enhanced\001_Enhanced\obj\x86\Debug\001_Enhanced.pdb

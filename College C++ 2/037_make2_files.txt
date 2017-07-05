@@ -1,0 +1,41 @@
+//Cameron Prince
+//037_make2_files
+//original 11:53 AM 3/11/2014
+//modified 11:58 AM 3/11/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main(){
+
+system("color 0a");
+string name, rating;
+
+ifstream fin ("E:\\DATA\\stooge.dat");
+ofstream fout1 ("E:\\DATA\\stoogename.dat");
+ofstream fout2 ("E:\\DATA\\stoogerating.dat");
+
+while (! fin.eof()){
+//read and load to variables
+fin >> name >> rating;
+//write to file
+fout1 << name << endl;
+fout2 << rating << endl;
+}
+fin.close();
+fout1.close();
+fout2.close();
+
+cout << "Files have been created.\n\n";
+
+
+system ("pause");
+system ("cd\ ");
+system ("cd C:");
+system ("tree");
+system ("pause");
+return 0;
+}

@@ -1,0 +1,35 @@
+//Cameron Prince
+//010_even1
+//original 10/24/2013
+//modified 10/24/2013
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n, remainder, stopit = 1;
+
+	while (stopit ==1)
+	{
+	cout << endl;
+	//get # from keyboard
+	cout << "Enter a number: ";
+	cin >> n;
+
+	//get remainder after dividing by 2
+	remainder = n % 2;
+
+	//if remainder is 0, the # is even
+	if (remainder == 0)
+		cout << "The number is even." << endl << endl;
+	else
+		cout << "The number os odd." << endl << endl;
+
+	cout << "Enter 1 to continue or 0 to stop: ";
+	cin >> stopit;
+	}
+
+	system("pause");
+	return 0;
+}

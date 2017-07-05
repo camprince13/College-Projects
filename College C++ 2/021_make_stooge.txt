@@ -1,0 +1,33 @@
+//Cameron Prince
+//021_make_stooge
+//original 2/4/2014
+//modified 2/4/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+string name, rate, stooge;
+ofstream fout ("E:\\DATA\\stooge.dat");
+
+while (1)
+{
+cout << "Enter a name, or press enter to stop: ";
+getline(cin, stooge);
+if (stooge.empty())//if empty, break
+break;
+
+cout << "Enter rating: ";
+getline(cin, rate);
+
+fout << stooge << " " << rate << endl;//write to file
+cout << "Sent to file" << endl;
+}
+fout.close();//close file
+system ("pause");
+return 0;
+}

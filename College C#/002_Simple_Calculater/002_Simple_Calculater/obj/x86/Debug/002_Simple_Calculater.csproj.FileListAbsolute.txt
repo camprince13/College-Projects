@@ -1,0 +1,10 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\_002_Simple_Calculater.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\_002_Simple_Calculater.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\bin\Debug\002_Simple_Calculater.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\bin\Debug\002_Simple_Calculater.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.csprojResolveAssemblyReference.cache
+J:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\002_Simple_Calculater\002_Simple_Calculater\obj\x86\Debug\002_Simple_Calculater.pdb

@@ -1,0 +1,24 @@
+//Cameron Prince
+//007_pr_addr
+//original 1/14/2014
+//modified 1/14/2014
+//SE 124.42
+
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+int main()
+{
+int a = 2, b = 3, c = 4;
+int *pa = &a;
+int *pb = &b;
+int *pc = &c;
+cout << "Value of pointer pa is: " << pa << endl;
+cout << "Value of pointer pb is: " << pb << endl;
+cout << "Value of pointer pc is: " << pc << endl;
+cout << "Value of a, b, and c are: ";
+cout << a << ", " << b << ", " << c << endl;
+system ("pause");
+return 0;
+}

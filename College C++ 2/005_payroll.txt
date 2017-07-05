@@ -1,0 +1,39 @@
+//Cameron Prince
+//005_payroll
+//original 1/13/2014
+//modified 1/13/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int i;
+string id[8], sup[8];
+double payr[8], hour[8], gross;
+
+for (i = 0; i < 8; i++)
+{
+	cout << "Enter Student ID: ";
+	cin >> id[i];
+	cout << "Enter the pay rate: ";
+	cin >> payr[i];
+	cout << "Enter supervisor number: ";
+	cin >> sup[i];
+	cout << "Enter hours worked: ";
+	cin >> hour[i];
+	cout << "\n";
+}
+
+for (i = 0; i < 8; i++)
+{
+gross = hour[i] * payr[i];
+cout << "\n\n" << id[i] << "\t" << payr[i] << "\t" << hour[i] <<  "\t" << gross << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}

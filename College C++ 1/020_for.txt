@@ -1,0 +1,23 @@
+//Cameron Prince
+//020_for
+//original 11/7/2013
+//modified 11/7/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i, number;
+
+	cout << "Enter a number: ";
+	cin >> number;
+
+	for (i = 0; i <= number; i++)
+	//inital       condition  increment
+	cout << i << endl;
+
+	system ("pause");
+	return 0;
+}

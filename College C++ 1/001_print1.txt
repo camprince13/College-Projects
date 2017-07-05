@@ -1,0 +1,13 @@
+//Cameron Prince
+// print1 modified 10/8/13
+
+#include <iostream> //allows use of moniter and keyboard
+using namespace std; //allows cin and cout
+
+int main ()  //main function
+{
+	cout << "Never fear, C++ is here! " << endl << endl; // cout prints text on the screen  endl-ends line
+
+	system("pause"); //pauses the program before closing
+	return 0;
+}

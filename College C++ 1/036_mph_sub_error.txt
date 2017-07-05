@@ -1,0 +1,121 @@
+//Cameron Prince
+//036_mph_sub_error
+//original 11/12/2013  021_mph
+//modified 12/5/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+/*int error_mph();
+int error_bh();
+int error_eh();
+int error_incr();*/
+void testall();
+void prt4();
+
+int mph, bh, eh, inc;
+
+int main()
+{
+	cout << "Enter speed (do not exceed 70 mph): ";
+	cin >> mph;
+	//mph = error_mph(mph);
+
+	cout << "Enter the beginning hour (between 1 and 3): ";
+	cin >> bh;
+	//bh = error_bh(bh);
+
+	cout << "Enter the ending hour (greater than "<< bh << " and less than 16): ";
+	cin >> eh;
+	//eh = error_eh(eh, bh);
+	
+	cout << "Enter the increase: ";
+	cin >> inc;
+	//inc = error_incr(inc);
+
+	testall();
+	prt4();
+	
+system ("pause");
+return 0;
+}
+/*
+int error_mph()
+{
+
+while (mph > 70)
+	{
+	cout << "Slow down! ";
+	cin >> mph;
+	}
+return mph;
+}
+
+int error_bh()
+{
+while (bh <= 1 || bh >= 3)
+{
+	cout << "Between 1 and 3! ";
+	cin >> bh;
+}
+return bh;
+}
+
+int error_eh()
+{
+while ( eh <= bh || eh >= 16)
+{
+	cout << "Greater than "<< bh << " and less than 16: ";
+	cin >> eh;
+}
+return eh;
+}
+
+int error_incr()
+{
+while (inc <= 0)
+	{
+	cout << "Greater than 0: ";
+	cin >> inc;
+	}
+return inc;
+}
+*/
+
+void testall()
+{
+
+while (mph > 70)
+{
+	cout << "Slow down! ";
+	cin >> mph;
+}
+
+while (bh <= 1 || bh >= 3)
+{
+	cout << "Between 1 and 3! ";
+	cin >> bh;
+}
+
+while ( eh <= bh || eh >= 16)
+{
+	cout << "Greater than "<< bh << " and less than 16: ";
+	cin >> eh;
+}
+
+while (inc <= 0)
+{
+	cout << "Greater than 0: ";
+	cin >> inc;
+}
+
+}
+void prt4()
+{
+	int i, distance;
+	for (i = bh; i <= eh; i+=inc)
+	{
+	distance = i * mph;
+	cout << i << "\t" << mph << "\t" << distance << "\n";
+	}
+}

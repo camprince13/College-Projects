@@ -1,0 +1,8 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\_009_Date_Handler.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\_009_Date_Handler.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\009_Date_Handler.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\bin\Debug\009_Date_Handler.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\bin\Debug\009_Date_Handler.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\009_Date_Handler.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\009_Date_Handler.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\009_Date_Handler\009_Date_Handler\obj\x86\Debug\009_Date_Handler.csprojResolveAssemblyReference.cache

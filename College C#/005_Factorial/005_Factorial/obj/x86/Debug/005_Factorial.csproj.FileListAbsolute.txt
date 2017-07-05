@@ -1,0 +1,9 @@
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\bin\Debug\005_Factorial.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\bin\Debug\005_Factorial.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\_005_Factorial.Form1.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\_005_Factorial.Properties.Resources.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\005_Factorial.csproj.GenerateResource.Cache
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\005_Factorial.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\005_Factorial.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\005_Factorial.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\005_Factorial\005_Factorial\obj\x86\Debug\005_Factorial.pdb

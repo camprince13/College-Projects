@@ -1,0 +1,17 @@
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\bin\Debug\005_MidTerm.exe
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\bin\Debug\005_MidTerm.pdb
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\_005_MidTerm.Form1.resources
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\_005_MidTerm.Properties.Resources.resources
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.csproj.GenerateResource.Cache
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.exe
+J:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.exe
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\bin\Debug\005_MidTerm.exe
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\bin\Debug\005_MidTerm.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\_005_MidTerm.Form1.resources
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\_005_MidTerm.Properties.Resources.resources
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.csproj.GenerateResource.Cache
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.csprojResolveAssemblyReference.cache
+K:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.exe
+K:\NEIT\Q5-2014_Fall\Advanced C#\Projects\005_MidTerm\005_MidTerm\obj\x86\Debug\005_MidTerm.pdb

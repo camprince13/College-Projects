@@ -1,0 +1,58 @@
+//Cameron Prince
+//021_mph
+//original 11/7/2013
+//modified 11/12/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i, distance, mph, bh, eh, inc;
+
+	cout << "Enter speed (do not exceed 70 mph): ";
+	cin >> mph;
+
+		while (mph > 70)
+	{
+		cout << "Slow down! ";
+		cin >> mph;
+	}
+
+	cout << "Enter the beginning hour (between 1 and 3): ";
+	cin >> bh;
+
+		while (bh <= 1 || bh >= 3)
+	{
+		cout << "Between 1 and 3! ";
+		cin >> bh;
+	}
+
+	cout << "Enter the ending hour (greater than "<< bh << " and less than 16): ";
+	cin >> eh;
+
+	while ( eh <= bh || eh >= 16)
+	{
+	cout << "Greater than "<< bh << " and less than 16: ";
+	cin >> eh;
+	}
+
+	cout << "Enter the increase: ";
+	cin >> inc;
+
+	while (inc <= 0)
+	{
+	cout << "Greater than 0: ";
+	cin >> inc;
+	}
+
+	for (i = bh; i <= eh; i+=inc)
+	{
+	distance = i * mph;
+	cout << i << "\t" << mph << "\t" << distance << "\n";
+	}
+
+system ("pause");
+return 0;
+}

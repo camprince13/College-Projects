@@ -1,0 +1,35 @@
+//Cameron Prince
+//001_stooge
+//original 1/7/2014
+//modified 1/7/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+//3 steps to use an array
+int main()
+{
+//1. declare and size the array
+int i;
+string name[3], rating[3];
+
+//2. load the array
+for (i = 0; i < 3; i++)
+{
+	cout << "Enter a name: ";
+	cin >> name[i];
+	cout << "Enter a raiting: ";
+	cin >> rating[i];
+}
+
+//3. print/use the array   single parallel arrays
+for (i = 0; i < 3; i++)
+{
+cout << endl << name[i] << "\t" << rating[i] << endl;
+}
+cout << "\n\n";
+
+system ("pause");
+return 0;
+}

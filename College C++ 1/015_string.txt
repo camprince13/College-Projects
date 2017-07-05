@@ -1,0 +1,27 @@
+//Cameron Prince
+//015_string
+//original 10/31/2013
+//modified 10/31/2013
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string num1, num2, full;
+
+	cout << "Enter first name: ";
+	getline (cin, num1);  //get line ignores spaces as separations
+
+	cout << "Enter last name: ";
+	getline (cin, num2);
+
+	full = num1 + " " + num2;
+
+	cout << full << "\n\n";
+
+
+system ("pause");
+return 0;
+}

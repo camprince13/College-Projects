@@ -1,0 +1,40 @@
+//Cameron Prince
+//040_string_average
+//original 12/12/2013
+//modified 12/12/2013
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string name, test1, test2, test3;
+int avg, t1, t2, t3;
+
+while (1)
+	{
+	cout << "Enter full name or press enter to stop: ";
+	getline (cin, name);
+
+	if (name.empty()) // is name empty
+		break; // breaks out of while loop
+
+	cout << "Enter test 1: ";
+	getline (cin, test1);
+	cout << "Enter test 2: ";
+	getline (cin, test2);
+	cout << "Enter test 3: ";
+	getline (cin, test3);
+
+	t1 = atoi(test1.c_str()); //ascii to integer
+	t2 = atoi(test2.c_str()); //atof to double
+	t3 = atoi(test3.c_str());
+
+	avg = (t1 + t2 + t3) / 3;// can concatinate strings (adding strings)
+
+	cout << name << "\t" << avg << endl << test1 << endl << test2 << endl << test3 << "\n\n";
+	}
+system ("pause");
+return 0;
+}

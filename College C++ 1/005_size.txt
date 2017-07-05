@@ -1,0 +1,44 @@
+//Cameron Prince
+// 005_size
+//original 10/15/2013
+//modified 10/17/2013  added "how many customers"
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+
+	//setup section
+	int i = 1, n;
+	double neck, waist, hat, shoe, weight;
+
+	cout << "How many customers? ";
+	cin >> n;
+	while (i <= n)  //never put a ; here, EVER!
+	{
+	
+	cout << "Enter customer's weight: ";
+	cin >> weight;
+	
+	cout << "Enter customer's waistline: ";
+	cin >> waist;
+	
+
+	//calculations
+	neck = (3 * weight) / waist;
+	hat = (3 * weight) / (2.125 * waist);
+	shoe = (50 * waist) / weight;
+
+	//output
+	cout << "The weight is " << weight << endl;
+	cout << "The waistline is " << waist << endl;
+	cout << "The calculated neck size is " << neck << endl;
+	cout << "The calculated hat size is " << hat << endl;
+	cout << "The calculated shoe size is " << shoe << endl << endl << endl;
+	i = i + 1; //increase i by one
+	}
+
+system ("pause"); //freeze screen
+return 0;  //indicates successful completion
+} //close main function

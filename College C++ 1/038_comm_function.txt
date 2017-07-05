@@ -1,0 +1,47 @@
+//Cameron Prince
+//038_comm_function
+//original 10/10/2013  002_comm
+//modified 12/10/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+double sub_comm(double rate,  double week1,  double week2,  double returns);
+void prt(double comm);
+
+int main()
+{
+	cout << "Commission calculation program" << endl <<endl;
+
+	double commission, rate, week1, week2, returns;
+	
+	cout << "Enter the commission rate: ";
+	cin >> rate;
+
+	cout << "Enter the week 1 sales: ";
+	cin >> week1;
+
+	cout << "Enter the week 2 sales: ";
+	cin >> week2;
+
+	cout << "Enter the sales returns: ";
+	cin >> returns;
+	
+	commission = sub_comm(rate, week1, week2, returns);
+
+	prt(commission);
+
+system ("pause");
+return 0;
+}
+
+double sub_comm(double rate,  double week1,  double week2,  double returns)
+{
+double a;
+a = rate * (week1 + week2 - returns);
+return a;
+}
+
+void prt(double comm)
+{
+	cout <<endl << "Commission to be paid $" << comm << endl << endl;
+}

@@ -1,0 +1,77 @@
+//Cameron Prince
+//039_size_functions
+//original 10/15/2013  005_size
+//modified 12/10/2013
+
+#include <iostream>
+using namespace std;
+
+double neck1();
+double hat1();
+double shoe1();
+
+void prt(double neck, double hat, double shoe);
+
+double weight, waist;
+
+int main()
+{
+
+	int i = 1, n;
+	double neck, hat, shoe;
+
+	cout << "How many customers? ";
+	cin >> n;
+	while (i <= n)
+	{
+	
+	cout << "Enter customer's weight: ";
+	cin >> weight;
+	
+	cout << "Enter customer's waistline: ";
+	cin >> waist;
+	
+	//neck = (3 * weight) / waist;
+	neck = neck1();
+	//hat = (3 * weight) / (2.125 * waist);
+	hat = hat1();
+	//shoe = (50 * waist) / weight;
+	shoe = shoe1();
+
+	prt(neck, hat, shoe);
+	i = i + 1;
+	}
+
+system ("pause");
+return 0;
+} 
+
+double neck1()
+{
+double a;
+a = (3 * weight) / waist;
+return a;
+}
+
+double hat1()
+{
+double b;
+b = (3 * weight) / (2.125 * waist);
+return b;
+}
+
+double shoe1()
+{
+double c;
+c = (50 * waist) / weight;
+return c;
+}
+
+void prt(double neck, double hat, double shoe)
+{
+	cout << "The weight is " << weight << endl;
+	cout << "The waistline is " << waist << endl;
+	cout << "The calculated neck size is " << neck << endl;
+	cout << "The calculated hat size is " << hat << endl;
+	cout << "The calculated shoe size is " << shoe << endl << endl << endl;
+}

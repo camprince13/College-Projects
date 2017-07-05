@@ -1,0 +1,48 @@
+//Cameron Prince
+//018_value2
+//original 11/5/2013
+//modified 11/5/2013
+
+#include <iostream>
+#include <string>
+using namespace std; 
+
+int main()  //start of main function
+{
+	int i = 1, n, vID, totitems = 0, stopit = 1;  // = loads value
+	double value, units, cost, totvalue = 0;
+	string product;
+
+	
+	// condition must be true
+	while (stopit == 1)  // == checks value
+	{
+	cout << "Enter product name: ";
+	getline (cin, product);  //cin will stop it from breaking
+	cout << "Enter the Vendor ID: ";
+	cin >> vID;
+	cout << "Enter how many units: ";
+	cin >> units;
+	cout << "Enter the cost per unit: ";
+	cin >> cost;
+
+	value = units * cost;
+
+	cout << "\nProduct: " << product;    // "\t"  means tab
+	cout << endl << "ID # " << vID << endl;
+	cout << units << "Units\n";
+	cout << "$" << cost << " each\n";
+	cout << "$" << value << " total\n\n";
+	i = i + 1;
+	totitems++; //totitems = totitems + 1;
+	totvalue +=value;  //totvalue = totvalue + value;
+	//decide to continue or not
+	cout << "Enter 0 to stop, enter 1 to continue: ";
+	cin >> stopit;
+	}
+	cout << totitems << " total orders using ID 110" << endl; //batch control total
+	cout << "Total value is $" << totvalue << endl;
+
+system ("pause"); 
+return 0;
+} 

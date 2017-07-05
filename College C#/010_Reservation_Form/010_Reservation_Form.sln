@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Reservation_Form", "010_Reservation_Form\010_Reservation_Form.csproj", "{469848F6-8F19-4518-A3FF-209984006FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469848F6-8F19-4518-A3FF-209984006FBA}.Debug|x86.ActiveCfg = Debug|x86
+		{469848F6-8F19-4518-A3FF-209984006FBA}.Debug|x86.Build.0 = Debug|x86
+		{469848F6-8F19-4518-A3FF-209984006FBA}.Release|x86.ActiveCfg = Release|x86
+		{469848F6-8F19-4518-A3FF-209984006FBA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

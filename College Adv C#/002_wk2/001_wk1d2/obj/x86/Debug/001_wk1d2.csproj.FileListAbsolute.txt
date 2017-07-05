@@ -1,0 +1,16 @@
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\bin\Debug\001_wk1d2.exe
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\bin\Debug\001_wk1d2.pdb
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\_001_wk1d2.Form1.resources
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\_001_wk1d2.Properties.Resources.resources
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\001_wk1d2.csproj.GenerateResource.Cache
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\001_wk1d2.exe
+E:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\001_wk1d2.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\001_wk1d2.exe
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\001_wk1d2\001_wk1d2\obj\x86\Debug\001_wk1d2.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\obj\x86\Debug\001_wk1d2.exe
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\obj\x86\Debug\001_wk1d2.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\bin\Debug\001_wk1d2.exe
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\bin\Debug\001_wk1d2.pdb
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\obj\x86\Debug\_001_wk1d2.Form1.resources
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\obj\x86\Debug\_001_wk1d2.Properties.Resources.resources
+F:\NEIT\Q5-2014_Fall\Advanced C#\Projects\002_wk2\001_wk1d2\obj\x86\Debug\001_wk1d2.csproj.GenerateResource.Cache

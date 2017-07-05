@@ -1,0 +1,39 @@
+//Cameron Prince
+//039_makeabc
+//original 3/12/2014
+//modified 3/12/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main(){
+system("color 0a");
+
+string vid, name, num, cost;
+int all = 0, v110 = 0, numi;
+double value, costd;
+
+ifstream pin ("E:\\DATA\\pizza.dat");
+ofstream pout ("E:\\DATA\\abc.dat");
+
+while (! pin.eof()){
+pin >> vid >> name >> num >> cost;
+all++;
+
+if (vid == "110"){
+v110++;
+costd = atof(cost.c_str());
+numi = atoi(num.c_str());
+value = costd * numi;
+pout << vid << "\t" << name << "\t" << value << endl;}}
+pin.close();
+pout.close();
+
+cout << all << " Records found.\n";
+cout << v110 << " Records containing 110 as vendor ID.\nFile created.\n\n";
+
+system("pause");
+return 0;}

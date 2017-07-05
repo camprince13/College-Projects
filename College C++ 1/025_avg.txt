@@ -1,0 +1,34 @@
+//Cameron Prince
+//025_avg
+//original 11/14/2013
+//modified 11/14/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+double avg(double x, double y);
+
+int main()
+{
+double a = 0.0;
+double b = 0.0;
+
+cout << "Enter the first number: ";
+cin >> a;
+cout << "Enter the second number: ";
+cin >> b;
+
+// Call the function avg().
+cout << "The average is: " << avg(a, b) << endl;
+
+system ("pause");
+return 0;
+}
+
+//average function
+
+double avg(double x, double y)
+{
+return (x + y)/2;
+}

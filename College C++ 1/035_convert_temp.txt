@@ -1,0 +1,85 @@
+//Cameron Prince
+//035_convert_temp
+//original 11/27/2013
+//modified 12/3/2013
+//se114.11
+
+#include <iostream>
+#include <string>
+using namespace std;
+void tmp (double t1, double t2, int ty);
+double sub(double t1, double t2, int ty);
+
+int main()
+{
+double temp, temp2 = 0;
+int type;
+string conv;
+
+char again = 'y';
+while (again == 'y')
+	{
+
+cout << "Enter Temperature: ";
+cin >> temp;
+
+cout << "Enter F to convert from Fahrenheit to Centigrade\n"; //1
+cout << "Or enter C to convert from Centigrade to Fahrenheit\nInput: "; //0
+cin >> conv;
+
+if (conv == "f")
+{type = 1;}
+
+else
+{type = 0;}
+
+/*if (type == 1)  //f=(c*1.8)+32
+{
+temp2 = (temp - 32) / 1.8;
+//tmp(temp, temp2, type);//cout << endl << temp << " degrees Fahrenheit is " << temp2 << " degrees Centigrade\n\n";
+}
+
+else
+{
+temp2 = (temp * 1.8) + 32;
+//tmp(temp, temp2, type);//cout << endl << temp << " degrees Centigrade is " << temp2 << " degrees Fahrenheit\n\n";
+}*/
+
+temp2 = sub(temp, temp2, type);
+tmp(temp, temp2, type);
+
+cout << "\nDo you want to play again? (y/n): ";
+cin >> again;
+	}
+
+
+system ("pause");
+return 0;
+}
+
+double sub(double t1, double t2, int ty)
+{
+if (ty == 1)  //f=(c*1.8)+32
+	{
+	t2 = (t1 - 32) / 1.8;
+	}
+else
+{
+	t2 = (t1 * 1.8) + 32;
+}
+
+return t2;
+}
+
+void tmp (double t1, double t2, int ty)
+{
+	if (ty == 1)
+	{
+	cout << endl << t1 << " degrees Fahrenheit is " << t2 << " degrees Centigrade\n\n";
+	}
+
+	else
+	{
+	cout << endl << t1 << " degrees Centigrade is " << t2 << " degrees Fahrenheit\n\n";
+	}
+}

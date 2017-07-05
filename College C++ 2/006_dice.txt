@@ -1,0 +1,30 @@
+//Cameron Prince
+//006_dice
+//original 1/14/2014
+//modified 1/14/2014
+//SE 124.42
+
+#include <iostream>   //access moniter & keyboard
+#include <math.h>    //higher math function
+#include <stdlib.h> //general purpose functions
+#include <time.h>  //get and manipulate date and time information
+using namespace std;
+
+int main()
+{
+int i, n, r;
+//random seed
+srand(time(NULL)); //only word that must be in caps
+
+cout << "Enter the number dice you want to roll: ";
+cin >> n;
+
+for (i = 1; i <= n; i++)
+{
+r = rand() % 6 + 1;
+cout << "\n" << r << endl;
+}
+cout << endl;
+system ("pause");
+return 0;
+}

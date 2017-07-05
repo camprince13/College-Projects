@@ -1,0 +1,7 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\bin\Debug\011_Buttons_Boxes.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\bin\Debug\011_Buttons_Boxes.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\obj\x86\Debug\_011_Buttons_Boxes.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\obj\x86\Debug\_011_Buttons_Boxes.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\obj\x86\Debug\011_Buttons_Boxes.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\obj\x86\Debug\011_Buttons_Boxes.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\011_Buttons_Boxes\011_Buttons_Boxes\obj\x86\Debug\011_Buttons_Boxes.pdb

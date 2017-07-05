@@ -1,0 +1,16 @@
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\bin\Debug\008_Commision_Calculator.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\bin\Debug\008_Commision_Calculator.pdb
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\_008_Commision_Calculator.Form1.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\_008_Commision_Calculator.Properties.Resources.resources
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.csproj.GenerateResource.Cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.exe
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\bin\Debug\008_Commision_Calculator.exe
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\bin\Debug\008_Commision_Calculator.pdb
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\_008_Commision_Calculator.Form1.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\_008_Commision_Calculator.Properties.Resources.resources
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.csproj.GenerateResource.Cache
+J:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.csprojResolveAssemblyReference.cache
+E:\NEIT\Q4-2014_Summer\C#\Projects\008_Commision_Calculator\008_Commision_Calculator\obj\x86\Debug\008_Commision_Calculator.csprojResolveAssemblyReference.cache

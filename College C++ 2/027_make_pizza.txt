@@ -1,0 +1,39 @@
+//Cameron Prince
+//027_make_pizza
+//original 2/11/2014
+//modified 2/11/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+string id, name, onhand, cost;
+ofstream fout ("E:\\DATA\\pizza.dat");
+
+while(1)
+{
+cout << "Enter ID: ";
+getline (cin, id);
+if(id.empty())
+break;
+fout << endl;
+cout << "Enter unit name: ";
+getline (cin, name);
+cout << "Enter units on hand: ";
+getline (cin, onhand);
+cout << "Enter cost per unit: ";
+getline (cin, cost);
+
+fout << id << "\t" << name << "\t" << onhand << "\t" << cost;
+
+}
+cout << "Sent to file";
+fout.close();
+
+system ("pause");
+return 0;
+}

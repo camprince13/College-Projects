@@ -1,0 +1,44 @@
+//Cameron Prince
+//029_make_dept
+//original 2/12/2014
+//modified 2/26/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+system(" color 0a ");
+
+string first, last, dept, hours, rate;
+ofstream fout ("E:\\DATA\\DEPT.dat");
+
+while(1)
+{
+cout << "Enter first name: ";
+getline (cin, first);
+if(first.empty())
+break;
+cout << "Enter last name: ";
+getline (cin, last);
+cout << "Enter department: ";
+getline (cin, dept);
+cout << "Enter hours: ";
+getline (cin, hours);
+cout << "Enter rate: ";
+getline (cin, rate);
+cout << endl;
+
+fout << last << "\t" << first << "\t" << dept << "\t" << hours << "\t" << rate;
+fout << endl;
+}
+
+cout << "Sent to file\n";
+fout.close();
+
+system("pause");
+return 0;
+}

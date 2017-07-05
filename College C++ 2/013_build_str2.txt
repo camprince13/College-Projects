@@ -1,0 +1,28 @@
+//Cameron Prince
+//013_build_str2
+//original 1/20/2014
+//modified 1/20/2014
+//SE 124.42
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string str, name, addr, work;
+
+cout << "Enter name and press enter: ";
+getline(cin, name);
+cout << "Enter address and press enter: ";
+getline(cin, addr);
+cout << "Enter workplace and press enter: ";
+getline(cin, work);
+
+str = "\nMy name is " + name + ", " + "I live at " + addr + ",\nand I work at " + work + ".\n";
+
+cout << str << endl;
+
+system ("pause");
+return 0;
+}

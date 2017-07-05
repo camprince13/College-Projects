@@ -1,0 +1,46 @@
+//Cameron Prince
+//030_dice
+//original 11/14/2013 024_dice
+//modified 11/19/2013
+//se114.11
+
+#include <iostream>   //access moniter & keyboard
+#include <math.h> //declares a set of functions to compute common mathematical operations and transformations
+#include <stdlib.h> //dynamic memory management, random number generation, communication with the environment, integer arthmetics, searching, sorting and converting
+#include <time.h>  //get and manipulate date and time information
+
+using namespace std;
+
+int rand_0(int n)
+
+int main()
+{
+	int i, n, r;
+
+	//sets seed for the random number
+	srand(time(NULL)); //NULL MUST BE CAPITALIZED
+
+	cout << "Enter how many dice will you roll: ";
+	cin >> n;
+
+	//initialization
+		//condition
+			//increment
+	for (i=1; i <= n; i++)
+	{
+	r = rand_0(6) + 1;     //rand() % 6 + 1;  // number will be 0-5, use the +1 so it will be 1-6 like a die
+	cout << r << endl;
+	}
+
+
+
+
+system ("pause");
+return 0;
+}
+
+
+int rand_0(int n)
+{
+return rand() % n;
+}

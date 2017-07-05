@@ -1,0 +1,24 @@
+//Cameron Prince
+//007_count
+//original 10/17/2013
+//modified 10/17/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+
+	int i = 1, n;
+	cout << "Enter a number to initialize i: ";
+	cin >> n;
+
+	while (i <= n)
+	{
+	cout << i << " " << endl;
+	i = i + 1;
+	}
+
+system ("pause"); //freeze screen
+return 0;  //indicates successful completion
+} //close main function

@@ -1,0 +1,48 @@
+//Cameron Prince
+//032_dynamic_grades
+//original 2/25/2014
+//modified 2/25/2014
+//SE 124.42
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+system("color 0a");
+string name, t1, t2, t3;
+string *sname, *d1, *d2, *d3;
+int i = 0;
+ifstream fin ("E:\\DATA\\grades.dat");
+while(! fin.eof())
+{
+fin >> name >> t1 >> t2 >> t3;
+i++;
+}
+cout << i << " records found\n";
+fin.close();
+sname = new string[i];
+d1 = new string[i];
+d2 = new string[i];
+d3 = new string[i];
+fin.open ("E:\\DATA\\grades.dat");
+cout <<endl;
+
+for(int b = 0; b < i; b++)
+fin >> sname[b] >> d1[b] >> d2[b] >> d3[b];
+
+fin.close();
+for (int b = 0; b < i; b++)
+cout << sname[b] << "\t" << d1[b] << "\t" << d2[b] << "\t" << d3[b] << endl;
+
+delete [] sname;
+delete [] d1;
+delete [] d2;
+delete [] d3;
+
+cout << endl;
+system("pause");
+return 0;
+}

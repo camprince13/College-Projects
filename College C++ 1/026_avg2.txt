@@ -1,0 +1,53 @@
+//Cameron Prince
+//026_avg2
+//original 11/14/2013
+//modified 11/14/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+//prototype
+int calcavg (int t1, int t2, int t3);
+
+int main()
+{
+int test1, test2, test3, average, n, i = 0;
+
+cout << "Enter the number of students: ";
+cin >> n;
+
+while (i < n)
+{
+
+cout << "Enter test 1: ";
+cin >> test1;
+
+cout << "Enter test 2: ";
+cin >> test2;
+
+cout << "Enter test 3: ";
+cin >> test3;
+
+
+
+average = calcavg(avg);
+
+
+
+cout << "The average is: " << average << endl << endl;
+
+cout << endl << "Total students: "; << i << endl << endl;
+
+system ("pause");
+return 0;
+}
+
+
+//function def
+int calcavg (int t1, int t2, int t3)
+{
+int avg;
+avg = (t1 + t2 + t3) / 3;
+return avg;
+}

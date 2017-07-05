@@ -1,0 +1,17 @@
+//Cameron Prince
+// 003_grossPay_v1  modified 10/14/2013
+
+#include <iostream> //allows access to keyboard and moniter
+using namespace std; //allows the use of con and cout
+
+int main()  //start of main function
+{
+
+	double earnings;
+	earnings = 80 * 13.75;
+
+	cout << "Your gross pay is $" << earnings << endl;
+
+system ("pause"); //freeze screen
+return 0;  //indicates successful completion
+} //close main function

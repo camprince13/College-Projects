@@ -1,0 +1,76 @@
+//Cameron Prince
+//020_select3
+//original 1/29/2014
+//modified 2/3/2014
+//SE 124.42
+
+#include<iostream>
+#include<string>
+#include<cstdlib>
+#include<ctime>
+#include<cmath>
+using namespace std;
+
+int rand_0toN1(int n);
+void pick();
+int select(int n);
+
+bool ob_picked[8];
+int obj_rem = 8;
+
+string obcolor[4] = {"red", "blue", "orange", "green"};
+
+string object[2] = {"cube", "ball" };
+
+int main()
+{
+int n, i;
+srand(time(NULL));
+
+while (1) {
+cout << "Enter no. of items to draw: " << endl;
+cout << "(0 to exit)";
+cin >> n;
+
+if (n == 0)
+break;
+for (i = 1; i <= n; i++)
+pick();
+}
+system ("pause");
+return 0;
+}
+
+void pick()
+{
+int c;
+int ob;
+int n, obj;
+
+n = rand_0toN1(obj_rem--);
+obj = select(n);
+c = obj % 4;
+ob = obj / 4;
+cout << obcolor[c] << " " << object[ob] << endl << endl;
+}
+
+int select(int n)
+{
+int i = 0;
+while (ob_picked[i])
+	i++;
+
+while(n-- > 0)
+{
+i++;
+while (ob_picked[i])
+i++;
+}
+ob_picked[i] = true;
+return i;
+}
+
+int rand_0toN1(int n)
+{
+return rand() % n;
+}

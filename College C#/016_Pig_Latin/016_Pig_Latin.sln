@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_Pig_Latin", "016_Pig_Latin\016_Pig_Latin.csproj", "{2D6AFE4E-F578-4296-9069-1AF57B3BF807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D6AFE4E-F578-4296-9069-1AF57B3BF807}.Debug|x86.ActiveCfg = Debug|x86
+		{2D6AFE4E-F578-4296-9069-1AF57B3BF807}.Debug|x86.Build.0 = Debug|x86
+		{2D6AFE4E-F578-4296-9069-1AF57B3BF807}.Release|x86.ActiveCfg = Release|x86
+		{2D6AFE4E-F578-4296-9069-1AF57B3BF807}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

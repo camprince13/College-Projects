@@ -1,0 +1,26 @@
+//Cameron Prince
+//022_factorial
+//original 11/12/2013
+//modified 11/12/2013
+//se114.11
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n, res = 1, i;
+
+	cout << "Enter a number: ";
+	cin >> n;
+
+	for (i = 1; i <= n; i++)
+	{
+	res = res * i;
+	}
+
+	cout << "The factorial of " << n << " is " << res << "\n\n";
+
+system ("pause");
+return 0;
+}
